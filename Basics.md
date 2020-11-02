@@ -424,7 +424,7 @@ our exception.
 Else: executes if an exception is not raised
 Finally: always executes at the end of the try-except block
 
-##Software Development Methodologies
+## Software Development Methodologies
 
 #### What is the main goal of a retrospective meeting?
 [Retrospective Meeting](https://retromat.org/blog/what-is-a-retrospective/)

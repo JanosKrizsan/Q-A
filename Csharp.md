@@ -136,7 +136,7 @@ Three Major Points:
 ORM - Object Relational Mapping, is a programming technique for converting data between incompatible type systems using object-oriented programming languages.
 This creates, in effect, a "virtual object database" that can be used from within the programming language. There are both free and commercial packages available that perform object-relational mapping, although some programmers opt to construct their own ORM tools.
 
-Entity Framework (EF) is an open source[3] object-relational mapping (ORM) framework for ADO.NET. It was a part of .NET Framework, but since Entity framework version 6 it is separated from .NET framework.
+Entity Framework (EF) is an open source object-relational mapping (ORM) framework for ADO.NET. It was a part of .NET Framework, but since Entity framework version 6 it is separated from .NET framework.
 
 EF Core can serve as an object-relational mapper (O/RM), enabling .NET developers to work with a database using .NET objects, and eliminating the need for most of the data-access code they usually need to write.
 

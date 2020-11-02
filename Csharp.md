@@ -2,7 +2,7 @@
 
 ### ASP.NET Core, WCF
 
-#### What Is the difference between .NET Core and .NET Standard? How do them relate to “classic” .NET?
+#### What Is the difference between .NET Core and .NET Standard? How do they relate to “classic” .NET?
 
 The .NET Standard is a formal specification of .NET APIs that are intended to be available on all .NET implementations.
 .NET Core is a free and open-source, managed computer software framework for Windows, Linux, and macOS operating systems.
@@ -29,7 +29,7 @@ It also keeps the view and model separate.
 
 - The UrlRoutingModule intercepts each request, finds a matching RouteData from a RouteTable and instantiates a MVCHandler (an HttpHandler).
 
-- The MVCHandler creates a DefaultControllerFactory (you can create your own controller factory also). It processes the RequestContext and gets a specific controller (from the controllers you have written). Creates a ControllerContext. es the controller a ControllerContext and executes the controller.
+- The MVCHandler creates a DefaultControllerFactory (you can create your own controller factory also). It processes the RequestContext and gets a specific controller (from the controllers you have written). Creates a ControllerContext, the controller a ControllerContext and executes the controller.
 
 - Gets the ActionMethod from the RouteData based on the URL. The Controller Class then builds a list of parameters (to to the ActionMethod) from the request.
 
